@@ -24,6 +24,14 @@ export default function SideNav() {
             <NavLink
                 exact
                 className='rounded-full py-[.3rem] text-sm font-light opacity-70'
+                to="/installation"
+                activeClassName="active" 
+            >
+                Installation
+            </NavLink>
+            <NavLink
+                exact
+                className='rounded-full py-[.3rem] text-sm font-light opacity-70'
                 to="/accordion"
                 activeClassName="active" 
             >

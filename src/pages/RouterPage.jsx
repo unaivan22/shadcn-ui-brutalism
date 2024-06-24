@@ -31,6 +31,7 @@ import RadioGroupSection from './Components/RadioGroup/RadioGroup'
 import SliderSection from './Components/Slider/Slider'
 import SwitchSection from './Components/Switch/Switch'
 import TabsSection from './Components/Tabs/Tabs'
+import Installation from './Installation'
 
 export default function RouterPage() {
   return (
@@ -39,6 +40,7 @@ export default function RouterPage() {
             <Route path='/' element={<Home/>} />
 
             <Route path='/introduction' element={<Introduction/>} />
+            <Route path='/installation' element={<Installation/>} />
 
             <Route path='/accordion' element={<AccordionSection/>} />
             <Route path='/alert' element={<AlertSection/>} />

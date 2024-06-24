@@ -75,7 +75,7 @@ export default function Home() {
       <h1 className='text-[3rem] md:text-[5rem] font-bold'>Introduction</h1>
       <h1 className='text-xl md:text-4xl font-semibold underline'>This Brutalism style offers reusable components that you can copy and paste into your application, restyled from <a href='https://ui.shadcn.com/' target='_blank'><span className='bg-violet-400'>shadcn/ui</span></a> to fit the brutalism style. They are accessible, customizable, and open source.</h1>
 
-      <Button className='my-12 text-4xl py-8' size="lg"><a href="/accordion">Get Started</a></Button>
+      <Button className='my-12 text-4xl py-8' size="lg"><a href="/installation">Get Started</a></Button>
       <p>References</p>
       <div className='flex flex-col gap-x-2'>
         <a href='https://neo-brutalism-ui-library.vercel.app/' target='_blank' className='font-semibold text-4xl flex items-center hover:underline'>NEO-UI <ArrowUpRight className='w-12 h-12' /></a>

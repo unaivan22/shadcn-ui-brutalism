@@ -76,3 +76,19 @@
   font-weight: 800;
   font-size: 24px;
 }
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  width: 0.2em;
+  background-color: #F5F5F5;
+}
+
+/* Track */
+::-webkit-scrollbar-thumb {
+background-color: #545454; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb:hover {
+  background: #8c8c8c; 
+}
